@@ -1,0 +1,31 @@
+
+body{
+    background-color: rgb(19, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formd{
+    height: auto;
+    width: 180px;
+     background-color: blue;
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+}
+p{
+    color: red;
+    margin: 0px;
+    font-size: 10px;
+    margin: 5px;
+}
+input{
+    margin: 3px;
+    box-shadow: 2px 2px 9px 0.5px rgb(243, 179, 179);
+    border:none;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}

@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formvalidate</title>
+    <link rel="stylesheet" href="formvalid.css">
 </head>
 <body>
-    <form >
+    <form id="formd">
+        <h3>Registration</h3>
         <p id="errname"></p>
-        Enter Name <input type="text" id="name"><br>
+        <input type="text" id="name" placeholder="Enter your name"><br>
 
         <p id="errnum"></p>
-        Enter Number <input type="text" id="num"><br>
+        <input type="text" id="num" placeholder="Enter Number "><br>
 
         <p id="erremail"></p>
-        Enter Email <input type="text" id="email"><br>
+        <input type="text" id="email" placeholder="Enter email "><br>
 
         <p id="errpass"></p>
-        Enter Password <input type="text" id="pass"><br>
+       <input type="text" id="pass"  placeholder="Enter Password "><br>
 
         <p id="errcpass"></p>
-        Enter confirm Password <input type="text" id="cpass"><br><br>
+        <input type="text" id="cpass"  placeholder="Enter confirm Password"><br><br>
 
         <input type="submit" onclick="return formValidate()" >
     </form>

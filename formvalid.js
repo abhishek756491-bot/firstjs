@@ -54,18 +54,22 @@ let formValidate=() =>{
         ErrPass.innerHTML="please Enter your password";
         return false;
     }
-    if(!(pass.match(/[1234567890]/) && pass.match(/[@#$%&*!]/) && pass.match(/[A-Z]/) && pass(/[a-z]/))){
-        ErrPass.innerHTML="please Enter your valid password";
+    if(!(pass.match(/[1234567890]/) && pass.match(/[@#$%&*!]/) && pass.match(/[A-Z]/) && pass.match(/[a-z]/))){
+        ErrPass.innerHTML="Please Enter your valid password";
+        return false;
+    }
+    if(!(pass.length >= 8)){
+        ErrPass.innerHTML="Please enter 8 digit";
         return false;
     }
      else
         ErrPass.innerHTML="";
 
     if(cpass !== pass){
-        ErrCpass.innerHTML="please Enter same password";
+        ErrCpass.innerHTML="please enter same password";
         return false;
     } 
-    // else
-    //     ErrPass.innerHTML="";
-    //     return false;
+    else
+        ErrCpass.innerHTML="";
+        return false;
 }
