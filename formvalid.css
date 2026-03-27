@@ -7,7 +7,7 @@ body{
 }
 #formd{
     height: auto;
-    width: 180px;
+    width: auto;
      background-color: blue;
     padding: 10px;
     align-items: center;
