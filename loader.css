@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(133, 133, 221);
+    border-top: 10px solid rgb(69, 41, 41);
+    border-radius: 50%;
+    margin: 100px;
+    animation: abhiani 2s ease-in 0s infinite normal;
+}
+@keyframes abhiani {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
